@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body_admin{
+ display: flex;
+}
+
+.menu_admin{
+    width: 17%;
+    height: 870px;
+    background-color: #172d44;
+}
+.account_admin{
+    width: 100%;
+    box-sizing: border-box;
+    height: 150px;
+    border: 1px solid black;
+}
+.account_admin .img_admin{
+    margin-top: 10px;
+    height: 80px;
+    text-align: center;
+}
+.account_admin img{
+    max-height: 80px;
+    width: auto;
+    border-radius: 50%;
+}
+.account_admin .name_admin{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.menu {
+    margin-top: 20px;
+}
+.menu_item{
+    height: 60px;
+}
+.menu_item a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu_item:hover{
+    background-color: #333333;
+    display: block;
+}
+.menu_link{
+    margin-left: 30px;
+    display: flex;
+}
+.menu_link .icon{
+    margin-top: 22px;
+    margin-right: 10px;
+}
+.menu_link .title{
+    margin-top: 22px;
+}
+
+/*--------------*/
+.content_admin{
+    width: 83%;
+}
+.content_admin .banner_admin{
+    height: 40px;
+    background-color: #172d44;
+    text-align: center;
+    color: #fff;
+}
+.content_admin .table_product{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.content_admin .title{
+    margin-top: 10px;
+    font-size: 16px;
+    height: auto;
+}
+.content_admin .table_product .title_table_product{
+    display: flex;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.id_product{
+    width: 6%;
+}
+.img_product{
+    width: 14%;
+}
+
+.name_product{
+    width: 16%;
+}
+.address_product{
+    width: 34%;
+}
+.status_product{
+    width: 10%;
+}
+.price_product{
+    width: 12%;
+}
+.function{
+    width: 10%;
+}
+.data_product{
+    display: flex;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.data_product .title{
+    margin-top: 15px;
+}
+.img_product img{
+    max-height: 80px;
+    max-width: 80px;
+    margin-top: 10px;
+}
+.data_product .address_product{
+    margin: 10px;
+}
+.data_product .title_id{
+    margin-top: 30px;
+}
+.data_product .title_status{
+    margin-top: 30px;
+}
+.data_product .title_price{
+    margin-top: 10px;
+}
+.data_product a{
+    text-decoration: none;
+    color: black;
+}
+.data_product a:hover{
+    color: #eb5757;
+}

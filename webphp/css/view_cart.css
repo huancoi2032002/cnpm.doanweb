@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(0,0,0,.05);
+}
+.banner_title{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color: #fff;
+}
+.banner_title_primary{
+    height: 38px;
+}
+.banner_title a{
+    color: #ee4d2d;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 15%;
+    height: 32px;
+}
+.topbar {
+    background: #ee4d2d;
+    height: 40px;
+    line-height: 40px;
+  }
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.contact {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.topbar span,.topbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.topbar .contact span {
+    margin-right: 30px;
+}
+.container {
+    max-width: 1200px;
+}
+.account {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.topbar .account_header li {
+    display: inline-block;
+    margin-right: 25px;
+}
+  .topbar .account_header {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.topbar a:hover {
+    color: #fff;
+}
+.logo {
+    display: block;
+    text-align: center;
+}
+.logo_center {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+
+
+/*--------------------------------*/
+
+.div_cart{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.title_product{
+    width: 1200px;
+    height: 50px;
+    border-bottom: #ee4d2d;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.div_cart .title_sp{
+    width: 50%;
+    margin-top: 14px;
+}
+.title_price{
+    width: 12.5%;
+    margin-top: 14px;
+}
+.title_quantity{
+    width: 12.5%;
+    margin-top: 14px;
+}
+.title_sum{
+    width: 12.5%;
+    margin-top: 14px;
+}
+.title_tt{
+    width: 12.5%;
+    margin-top: 14px;
+}
+
+/*----------------------------*/
+.menu_cart_product{
+    display: flex;
+    height: 150px;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.menu_cart_product .img_product{
+    width: 150px;
+}
+.menu_cart_product .img_product img{
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+}
+.menu_cart_product .name_product{
+    width: 450px;
+}
+.menu_cart_product .name_product_detail{
+    height: 100px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.menu_cart_product .price_product{
+    width: 149.75px;
+}
+.menu_cart_product .price_product .price_product_detail{
+    margin-top: 25px;
+    font-size: 16px;
+}
+.menu_cart_product .quantity{
+    width: 149.75px;
+}
+.menu_cart_product .quantity_detail{
+    margin-top: 25px;
+}
+.menu_cart_product .quantity .decre{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.menu_cart_product .quantity .incre{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.menu_cart_product .price_sum{
+    width: 149.75px;
+}
+.menu_cart_product .price_sum_detail{
+    margin-top: 25px;
+    font-size: 16px;
+}
+.menu_cart_product .function{
+    width: 149.75px;
+}
+.menu_cart_product .function_detail{
+    margin-top: 25px;
+}
+.menu_cart_product .function a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-top: 25px;
+}
+
+/*---------------------*/
+.pay_product{
+    height: 300px;
+    width: 1200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+
+.use_information{
+    display: block;
+    right: auto;
+    margin-left: 50px;
+}
+.title_pay{
+    font-size: 28px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ee4d2d;
+}
+.information_dc{
+    font-size: 20px;
+}
+.input_dc{
+    width: 800px;
+    height: 30px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.information_pay {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.method{
+    display: flex;
+    margin-top: 20px;
+}
+.method_pay{
+    width: 300px;
+    height: 30px;
+}
+.total{
+    display: flex;
+    width: 600px;
+    margin-top: 20px;
+    justify-content: flex-end;
+    margin-left: 500px;
+}
+.total_money{
+    display: block;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.money{
+    font-size: 20px;
+    width: 120px;
+    display: block;
+    text-align: right;
+}
+.btn_dat_hang{
+    margin-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

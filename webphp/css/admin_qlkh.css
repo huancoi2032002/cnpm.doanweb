@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body_admin{
+ display: flex;
+}
+
+.menu_admin{
+    width: 17%;
+    height: 870px;
+    background-color: #172d44;
+}
+.account_admin{
+    width: 100%;
+    box-sizing: border-box;
+    height: 150px;
+    border: 1px solid black;
+}
+.account_admin .img_admin{
+    margin-top: 10px;
+    height: 80px;
+    text-align: center;
+}
+.account_admin img{
+    max-height: 80px;
+    width: auto;
+    border-radius: 50%;
+}
+.account_admin .name_admin{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.menu {
+    margin-top: 20px;
+}
+.menu_item{
+    height: 60px;
+}
+.menu_item a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu_item:hover{
+    background-color: #333333;
+    display: block;
+}
+.menu_link{
+    margin-left: 30px;
+    display: flex;
+}
+.menu_link .icon{
+    margin-top: 22px;
+    margin-right: 10px;
+}
+.menu_link .title{
+    margin-top: 22px;
+}
+
+/*--------------*/
+.content_admin{
+    width: 83%;
+}
+.content_admin .banner_admin{
+    height: 40px;
+    background-color: #172d44;
+    text-align: center;
+    color: #fff;
+}
+.list_account{
+    width: 94%;
+
+    margin-left: 3%;
+}
+.content_admin .title{
+    display: flex;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.content_admin .id{
+    width: 3%;
+}
+.content_admin .name{
+    width: 15%;
+}
+.content_admin .name_account{
+    width: 13%;
+}
+.content_admin .email{
+    width: 22%;
+}
+.content_admin .password{
+    width: 15%;
+}
+.content_admin .address{
+    width: 25%;
+}
+.content_admin .phonenumber{
+    width: 10%;
+}
+.content_admin .function{
+    width: 7%;
+}
+.content_admin .data{
+    display: flex;
+    height: 80px;
+    border:  2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 80px;
+    overflow: hidden;
+}
+.content_admin .function a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.number_pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 6%;
+
+}
+
+.number_pages a {
+    border: 1px solid black;
+    text-decoration: none;
+    list-style: none;
+    width: 25px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.number_pages a:hover {
+    background-color: #ee4d2d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search{
+    height: 60px;
+    display: flex;
+}
+.search .input_search{
+    height: 60px;
+    width: 200px;
+}
+.search .input_search input{
+    height: 30px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border: 2px solid black;
+}
+.search .btn_search{
+    height: 60px;
+    width: 200px;
+}
+.search .btn_search button{
+    height: 34px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 43px;
+    border: 2px solid black;
+    background-color: #ee4d2d;
+    color: #fff;
+}
